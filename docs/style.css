@@ -18,3 +18,46 @@ img {
     background-color:pink;
     font-size: smaller;
 }
+
+.resume {
+        max-width: 900px;
+        margin: 22px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+      }
+      .resume-header {
+        border-bottom: 2px solid #eee;
+        padding-bottom: 14px;
+        margin-bottom: 16px;
+      }
+      .resume-header h1 { margin: 0; font-size: 28px; }
+      .contact-line { margin: 8px 0 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+      .dot { color: #888; }
+      h2.section-title {
+        margin: 18px 0 8px 0;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        border-left: 4px solid #111;
+        padding-left: 10px;
+      }
+      .item { margin: 12px 0; }
+      .item-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .item-top h3 { margin: 0; font-size: 15px; }
+      .item-date { font-size: 13px; color: #444; white-space: nowrap; }
+      .item-sub { margin: 4px 0 8px 0; color: #555; font-size: 13px; }
+      ul { margin: 8px 0 0 18px; }
+      li { margin: 4px 0; }
+      .skills-grid { display: grid; gap: 8px; }
+      .skills-grid p { margin: 0; }
+      nav { margin: 14px 0 0 0; }
+      nav a { margin-right: 10px; }
+      body { background: #f4f6f8; margin: 0; font-family: Arial, Helvetica, sans-serif; line-height: 1.5; }
+    
