@@ -5,41 +5,49 @@
      * On Mac, go to the browser and type command + o and browse to find this file to open it. 
      Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
     -->
+
+    <header class="site-header">
+        <div class="header-container">
+
+            <h1 class="logo">About</h1>
+            <nav class="site-nav">
+            <a href="../../index.html">Home</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="resume.html">Resume</a>
+            </nav>
+
+        </div>
+    </header>
     <head>
         <!-- What's in the <head> element is a "meta" area not for display. 
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <link rel="stylesheet" type="text/css" href="style.css" />
+       
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Gallery</h1>
-        <nav class="featureBlock">
+        <h1>About</h1>
+        <nav>
             <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
-            
+        
         </nav>
-        <p>This is my Gallery page.</p>
         
-        
+        <p>This is my about page.</p>
         <div class="side-by-side">
             <p>Go back to my <a href="index.html">main page</a>.</p>
             <figure>
-                <img src="images/llama_mp.jpg" />
+                <img src="images/cockatoo.jpg" />
                 <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
                     Picchu, on the Inca Trail.</figcaption>
             </figure>
-           
         </div>
-        <footer class="featureBlock">
-            <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>
-            <p>We are . . . Digit at Penn State Behrend!</p>
-        </footer>
     </body>
 </html>

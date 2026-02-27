@@ -1,0 +1,40 @@
+.resume{
+  max-width: 90vmax;
+  min-width: 320px;
+  margin: 22px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.resume .contact-line { margin: 8px 0 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.resume .dot { color: #888; }
+
+.resume h2.section-title {
+  margin: 18px 0 8px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-left: 4px solid #111;
+  padding-left: 10px;
+}
+
+.resume .item { margin: 12px 0; }
+
+.resume .item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.resume .item-top h3 { margin: 0; font-size: 15px; }
+.resume .item-date { font-size: 13px; color: #444; white-space: nowrap; }
+.resume .item-sub { margin: 4px 0 8px 0; color: #555; font-size: 13px; }
+
+.resume ul { margin: 8px 0 0 18px; }
+.resume li { margin: 4px 0; }
+
+.resume .skills-grid { display: grid; gap: 8px; }
+.resume .skills-grid p { margin: 0; }
