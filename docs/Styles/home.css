@@ -1,0 +1,7 @@
+.home-page main.page {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-left: var(--page-pad);
+    padding-right: var(--page-pad);
+}

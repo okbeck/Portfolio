@@ -1,53 +1,45 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>About | Olivia Beck</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
+</head>
 
+<body>
     <header class="site-header">
-        <div class="header-container">
-
-            <h1 class="logo">About</h1>
+        <div class="header-inner">
+            <h1 class="site-title">About</h1>
             <nav class="site-nav">
-            <a href="../index.html">Home</a>
-            <a href="about.html" aria-current="page">About</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="resume.html">Resume</a>
+                <a href="../index.html">Home</a>
+                <a href="about.html" aria-current="page">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="resume.html">Resume</a>
             </nav>
-
         </div>
     </header>
-    <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-       
-    </head>
-    <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>About</h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
-        
-        </nav>
-        
-        <p>This is my about page.</p>
-        <div class="side-by-side">
-            <p>Go back to my <a href="index.html">main page</a>.</p>
-            <figure>
-                <img src="images/cockatoo.jpg" />
-                <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
-                    Picchu, on the Inca Trail.</figcaption>
-            </figure>
-        </div>
-    </body>
+
+    <main class="page">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a Software Engineering student interested in web development, application design,
+                and building practical tools through programming.
+            </p>
+            <p>
+                This portfolio highlights my academic work, projects, and technical development as I continue
+                growing my skills.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Interests</h2>
+            <p>
+                My interests include software design, frontend and backend development, and creating
+                applications that are both useful and user-friendly.
+            </p>
+        </section>
+    </main>
+</body>
 </html>

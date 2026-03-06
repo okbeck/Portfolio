@@ -1,77 +1,59 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Home | Olivia Beck</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Styles/style.css" />
+</head>
+
+<body class="home-page">
     <header class="site-header">
-      <div class="header-container">
-          <h1 class="logo">Home</h1>
-          <nav class="site-nav">
-          <a href="index.html" aria-current="page">Home</a>
-          <a href="Pages/about.html">About</a>
-          <a href="Pages/gallery.html">Gallery</a>
-          <a href="Pages/resume.html">Resume</a>
-          </nav>
-      </div>
+        <div class="header-inner">
+            <h1 class="site-title">Home</h1>
+            <nav class="site-nav">
+                <a href="index.html" aria-current="page">Home</a>
+                <a href="Pages/about.html">About</a>
+                <a href="Pages/gallery.html">Gallery</a>
+                <a href="Pages/resume.html">Resume</a>
+            </nav>
+        </div>
     </header>
-    <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
-        <link rel="stylesheet" type="text/css" href="/docs/Styles/style.css" />
-    </head>
-    <body>
-        <h2>subheading</h2>
-        <p>Here is an example of a <a href="Pages/HTML/about.html">relative link</a> to a page inside the same folder.</p>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>One of the best resources for learning HTML is <a href="https://theuselessweb.com/">Secretly this website</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>Wow types of goldfish crackers in an <q>unordered list</q>.</p>
-        <ul>
-            <li>Chedder</li>
-            <li>Blasted Chedder</li>
-            <li>Rainbow</li>
-            <li>Pretzel</li>
-            <li>Pizza</li>
-        </ul>
-        
-        <p>Now time to rank groceries</p>
-        <ol>
-            <li>Bread</li>
-            <li>Egg</li>
-            <li>Toast</li>
-            <li>Milk</li>
-            <li>Waffel</li>
-        </ol>
-            
-        </button>   
-        <h5>Pics</h5>     
-        <figure>
-            <img src="images/sniff.png" onclick="document.getElementById('sniffSound').play();"/>
-            <figcaption>Click (the image) for a sniff</figcaption>
-        </figure> 
-        <audio id="sniffSound" src="audio/sniffingNoise.mp3" preload="auto"></audio>
-        <figure>
-            <img src="images/cockatoo.jpg"/>
-            <figcaption>Bird</figcaption>
-        </figure> 
-        <figure>
-            <img src="images/psu-logo.svg"/>
-            <figcaption>Behrend</figcaption>
-        </figure> 
-    </body>
+
+    <main class="page">
+        <section>
+            <h2>Welcome</h2>
+            <p>
+                Hello, my name is Olivia Beck. This website is a portfolio that highlights my
+                background, projects, and experience as a Software Engineering student.
+            </p>
+            <p>
+                Use the navigation above to learn more about me, explore my gallery, and view my resume.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Featured Pages</h2>
+            <div class="side-by-side">
+                <div class="featureBlock">
+                    <h3>About</h3>
+                    <p>Learn more about my background, interests, and academic focus.</p>
+                    <p><a href="Pages/about.html">View About Page</a></p>
+                </div>
+
+                <div class="featureBlock">
+                    <h3>Gallery</h3>
+                    <p>Browse project screenshots, photos, and featured work.</p>
+                    <p><a href="Pages/gallery.html">View Gallery</a></p>
+                </div>
+
+                <div class="featureBlock">
+                    <h3>Resume</h3>
+                    <p>Read my education, experience, technical skills, and project work.</p>
+                    <p><a href="Pages/resume.html">View Resume</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
