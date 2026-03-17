@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
     <link rel="stylesheet" type="text/css" href="../Styles/Gallery_Style.css" />
-
   </head>
 
   <body>
@@ -18,15 +17,58 @@
           <a href="../index.html">Home</a>
           <a href="about.html">About</a>
           <a href="gallery.html" aria-current="page">Gallery</a>
-          <a href="resume.html">Resume</a>
+          <a href="resume.html">Resume</a>          
+          <a href="reflection.html">Reflection</a>
         </nav>
       </div>
     </header>
 
     <main class="gallery">
-      <section class="gallery-section">
-        <h3>Featured</h3>
+      <section class="gallery-intro">
+        <h2>My Work</h2>
+        <p>
+          This gallery highlights some of my technical projects, application interfaces,
+          and personal photography. My work includes web development, data modeling,
+          and full-stack applications built with modern tools such as React, Node.js,
+          MongoDB, SQL, and Snowflake.
+        </p>
+      </section>
 
+      <section class="gallery-section">
+        <h3>Web & Software Projects</h3>
+        <div class="gallery-flex">
+          <figure class="gallery-card">
+            <img src="../images/LotusLedger.png" alt="LotusLedger landing page" />
+            <figcaption>
+              <strong>LotusLedger</strong> – A trading card management platform built with the MERN stack to track card values, metadata, and storage locations.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="../images/GoBag.png" alt="GoBag app trip view interface" />
+            <figcaption>
+              <strong>GoBag</strong> – A travel planning application with REST APIs, reusable components, and TypeScript support.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="../images/LionTracker.png" alt="LionTracker login screen" />
+            <figcaption>
+              <strong>LionTracker</strong> – A fitness-focused application developed with HTML, CSS, JavaScript, and MongoDB.
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card">
+            <img src="../images/QuizGame.png" alt="Quiz Game interface with background image" />
+            <figcaption>
+              <strong>Quiz Game</strong> – A user interface project featuring a styled game layout and visual design improvements.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <h3>Random Images</h3>
         <div class="gallery-flex">
           <figure class="gallery-card">
             <img src="../images/llama_mp.jpg" alt="Llama on the Inca Trail near Machu Picchu" />
@@ -34,36 +76,22 @@
               Llama on the Inca Trail near Machu Picchu.
             </figcaption>
           </figure>
+
           <figure class="gallery-card">
             <img src="../images/Bandito.png" alt="Cat looking downstairs" />
-            <figcaption>A wild bandit sniffing.</figcaption>
+            <figcaption>
+              Bandito exploring and sniffing downstairs.
+            </figcaption>
           </figure>
+
           <figure class="gallery-card">
-            <img src="../images/LotusLedger.png" alt="LotusLedger landing page" />
-            <figcaption>lotusLedger - Card tracking website.</figcaption>
-          </figure>
-          <figure class="gallery-card">
-            <img src="../images/QuizGame.png" alt="Quiz Game interface with image background added" />
-            <figcaption>Quiz Game interface with image background added.</figcaption>
-          </figure>
-          
-          <figure class="gallery-card">
-            <img src="../images/GoBag.png" alt="GoBag app interface" />
-            <figcaption>Traveling website - trip view.</figcaption>
-          </figure>
-          
-          <figure class="gallery-card">
-            <img src="../images/sniff.png" alt="Describe the image" />
-            <figcaption>Brutus.</figcaption>
-          </figure>
-          
-          <figure class="gallery-card">
-            <img src="../images/LionTracker.png" alt="Describe the image" />
-            <figcaption>Login Screen to LionTracker.</figcaption>
+            <img src="../images/sniff.png" alt="Dog named Brutus sniffing" />
+            <figcaption>
+              Brutus in a candid moment.
+            </figcaption>
           </figure>
         </div>
       </section>
     </main>
-
   </body>
 </html>
