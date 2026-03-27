@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Corpus Analysis: The Robot Killer vs. Three Doctors Discuss Syphilis</title>
+    <link rel="stylesheet" type="text/css" href="../Styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/analysis_style.css" />   
+</head>
+<body>
+  <header class="site-header">
+            <div class="header-inner">
+            <h1 class="site-title">Corpus Analysis Project</h1>
+
+            <nav class="site-nav">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="resume.html">Resume</a>
+            <a href="Reflection.html">Reflection</a>
+            <a href="Corpora Analysis.html" aria-current="page">Corpus Analysis</a>
+            </nav>
+        </div>
+   </header>
+
+  <main class="page">
+    <section>
+      <h2 class="section-title">Introduction</h2>
+      <p>
+        For this corpus analysis project, I compared two very different text documents:
+        <em>The Robot Killer</em>, a science fiction drama, and <em>Three Doctors Discuss Syphilis</em>,
+        a public health and medical discussion script. I used AntConc and Voyant Tools to explore repeated
+        words and n-grams in both texts.
+      </p>
+      <p>
+        These texts are useful to compare because they are opposites. <em>The Robot Killer</em>
+        is meant to entertain, so it contains dramatic dialogue, repeated commands, and action-based phrases.
+        <em>Three Doctors Discuss Syphilis</em> is meant to inform and persuade, so it contains repeated names,
+        formal discussion, and medical vocabulary.
+      </p>
+      <p>
+        My text files were stored in my GitHub repository outside the <code>docs</code> folder as part of my text-analysis workspace.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Texts Being Compared</h2>
+      <ul>
+        <li><strong>Text 1:</strong> <em>The Robot Killer</em></li>
+        <li><strong>Text 2:</strong> <em>Three Doctors Discuss Syphilis</em></li>
+      </ul>
+
+      <p>
+        Repo link:
+        <a href="https://github.com/okbeck/Portfolio" target="_blank">View my GitHub repository</a>
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">Method</h2>
+      <p>
+        I analyzed each text separately in AntConc so that the repeated phrases would not be mixed together.
+        I tested different n-gram sizes, especially 2-grams, 3-grams, and 4-grams, and also changed the
+        minimum frequency threshold from 5 to 10.
+      </p>
+      <p>
+        I also used Voyant Tools to begin exploring word frequency patterns and visual differences between the corpora.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">AntConc Results: The Robot Killer</h2>
+      <p>
+        In <em>The Robot Killer</em>, 2-grams appeared very frequently, and several 3-grams also repeated often.
+        Some repeated phrases included <q>the robot</q>, <q>thank you</q>, <q>robot twenty three</q>,
+        <q>mechanical man</q>, and <q>footsteps to door</q>. 
+      </p>
+
+      <div class="img-grid">
+        <figure>
+          <img src="../images/CorpusScreenshots/robon2freq5.png" alt="Robot Killer 2-gram results with minimum frequency 5">
+          <figcaption>AntConc 2-grams for <em>The Robot Killer</em> with minimum frequency 5.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/robon2freq10.png" alt="Robot Killer 2-gram results with minimum frequency 10">
+          <figcaption>AntConc 2-grams for <em>The Robot Killer</em> with minimum frequency 10.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/robon3freq5.png" alt="Robot Killer 3-gram results with minimum frequency 5">
+          <figcaption>AntConc 3-grams for <em>The Robot Killer</em> with minimum frequency 5.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/robon3freq10.png" alt="Robot Killer 3-gram results with minimum frequency 10">
+          <figcaption>AntConc 3-grams for <em>The Robot Killer</em> with minimum frequency 10.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/robon4freq5.png" alt="Robot Killer 4-gram results with minimum frequency 5">
+          <figcaption>AntConc 4-grams for <em>The Robot Killer</em> with minimum frequency 5.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/robon4freq10.png" alt="Robot Killer 4-gram results with minimum frequency 10">
+          <figcaption>AntConc 4-grams for <em>The Robot Killer</em> with minimum frequency 10.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">AntConc Results: Three Doctors Discuss Syphilis</h2>
+      <p>
+        In <em>Three Doctors Discuss Syphilis</em>, the most frequent repeated phrases were mostly 2-grams,
+        such as <q>dr young</q>, <q>dr whitehead</q>, <q>mrs wait</q>, and <q>blood tests</q>. Unlike
+        <em>The Robot Killer</em>, this text barely had any 3-grams above a frequency of 5, and 0 4-grams over frequency 5 or 10. This fits the more formal and informational style of the text.
+      </p>
+
+      <div class="img-grid">
+        <figure>
+          <img src="../images/CorpusScreenshots/3docn2freq5.png" alt="Three Doctors 2-gram results with minimum frequency 5">
+          <figcaption>AntConc 2-grams for <em>Three Doctors Discuss Syphilis</em> with minimum frequency 5.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/3docn2freq10.png" alt="Three Doctors 2-gram results with minimum frequency 10">
+          <figcaption>AntConc 2-grams for <em>Three Doctors Discuss Syphilis</em> with minimum frequency 10.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/3docn3freq5.png" alt="Three Doctors 3-gram results with minimum frequency 5">
+          <figcaption>AntConc 3-grams for <em>Three Doctors Discuss Syphilis</em> with minimum frequency 5.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/3docn3freq10.png" alt="Three Doctors 3-gram results with minimum frequency 10">
+          <figcaption>AntConc 3-grams for <em>Three Doctors Discuss Syphilis</em> with minimum frequency 10.</figcaption>
+        </figure>
+
+        <figure>
+          <img src="../images/CorpusScreenshots/3docn4freq5.png" alt="Three Doctors 4-gram results with minimum frequency 5">
+          <figcaption>AntConc 4-grams for <em>Three Doctors Discuss Syphilis</em> with minimum frequency 5.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Comparison of N-Gram Patterns</h2>
+      <table>
+        <tr>
+          <th>Feature</th>
+          <th>The Robot Killer</th>
+          <th>Three Doctors Discuss Syphilis</th>
+        </tr>
+        <tr>
+          <td>N-grams above 5</td>
+          <td>2-grams, 3-grams, and some 4-grams</td>
+          <td>Mainly 2-grams, with very few 3-grams</td>
+        </tr>
+        <tr>
+          <td>N-grams in double digits</td>
+          <td>2-grams and at least one 3-gram</td>
+          <td>2-grams only</td>
+        </tr>
+        <tr>
+          <td>Repeated phrase types</td>
+          <td>Commands, character references, stage directions</td>
+          <td>Doctor names, patient names, medical discussion terms</td>
+        </tr>
+        <tr>
+          <td>Overall style</td>
+          <td>Dramatic, emotional, action-oriented</td>
+          <td>Formal, educational, informative</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">Discussion</h2>
+      <p>
+         Both texts had a bunch of 2-grams, but they each had different purposes for what was repeated.
+        As the n-gram value went up, The Robot Killer repeated stage commands and character references.
+        Three Doctors Discuss Syphilis repeated doctor names and medical terms, but did not have many longer
+        n-grams that repeated frequently.
+      </p>
+      <p>
+        <em>The Robot Killer</em> repeats phrases connected to action, commands, and robot-centered dialogue,
+        which fits a script. On the other hand, <em>Three Doctors Discuss
+        Syphilis</em> repeats doctor names and public-health language, which reflects its educational purpose.
+      </p>
+      <p>
+        One interesting difference is that <em>The Robot Killer</em> continued to produce meaningful 3-grams
+        and even some 4-grams above a frequency of 5, while the medical discussion text dropped off sharply
+        after 2-grams. This suggests that the dramatic script reuses more fixed phrases, while the medical text
+        is more varied in sentence structure even though its subject is repetitive.
+      </p>
+    </section>
+
+  </main>
+
+    <footer class="site-footer">
+    <div class="footer-inner">
+        <p>Corpus Analysis Project Page</p>
+    </div>
+    </footer>
+</body>
+</html>
